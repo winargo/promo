@@ -6,7 +6,7 @@
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
         <link rel="stylesheet" href="./CSS/theme.css">
         <link rel="stylesheet" href="./CSS/calender.css">
-        <link rel="stylesheet" href="../promo/stylesheets/calendarview.css">
+        <link rel="stylesheet" href="./CSS/calendarview.css">
        <title>
            Chicken
        </title>
@@ -34,6 +34,7 @@
         margin-left: auto;
         margin-right: auto;
         text-align: center;
+          margin-top: 8%;
       }
       div#popupDateField:hover {
         background-color: #cde;
@@ -82,7 +83,7 @@
                margin-top: 3%;
            }
            #btndaftar{
-               margin-top: 5%;
+               margin-bottom: 5%;
                width: 100%;
            }
            .contact{
@@ -128,8 +129,8 @@
                <br>
                 <h3>Pilih tanggal yang Diinginkan :</h3>
                    <br>
-                     <a href="signup.PHP"><button type="button" class="btn btn-default" id="btndaftar">Promo Debit</button></a>    
-                      <a href="signup.PHP"><button type="button" class="btn btn-default" id="btndaftar">Promo Kredit</button></a>
+                     <a href="deals.PHP"><button type="button" class="btn btn-default" id="btndaftar">Promo Debit</button></a>    
+                      <a href="deals.PHP"><button type="button" class="btn btn-default" id="btndaftar">Promo Kredit</button></a>
                       <div class="wallet">
                 <p style="margin-top:10px;"> Saldo : Rp 50.000 <button type="button" class="btn btn-success">Isi Saldo</button></p>
                 </div>
